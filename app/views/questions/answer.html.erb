@@ -1,0 +1,10 @@
+<div class="border-start border-5 p-3 mb-3">
+  <p><%= @question %></p>
+  <p><em><%= "- You" %></em></p>
+</div>
+<div class="border-start border-5 p-3 mb-3 answer" >
+  <p><strong><%= @answer %></strong></p>
+  <p><em><%= "- Coach" %></em></p>
+</div>
+
+<%= link_to "Ask new question", ask_path %>
